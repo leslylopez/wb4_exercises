@@ -102,16 +102,35 @@ for ( let i = 0; i <=5; i++ ){
     console.log (i);
 }
 
+for ( let i = 0; i <=5; i++ ){
+
+    console.log (i);
+}
+
+
 //all the pieces are together for for loop 
 //Remember SEMICOLON 
 
 for ( let i = 0; i <=5; i++ ){
 
-    console.log(i);
+    //console.log(i);
     if (i === 3 ){
         break;
+        
+    }
+    console.log(i);
+//breaks just helps stop the loop early
+}
+
+for ( let i = 0; i <=5; i++ ){
+
+    console.log(i);
+    if (i === 2 ){
+        continue;
     }
 
-
-    //console.log (i);
+//continue skips the number 2 
+//continue is used for example only want even or odd numbers, skipping certain numbers or people to find and categorize ppl or numbers 
+//breaks just helps stop the loop early
+  
 }
