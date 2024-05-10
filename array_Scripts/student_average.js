@@ -10,10 +10,10 @@ let students = [
 ];
 
 //this is us getting the total number of students
-let numberOfStudents = students.length
+///let numberOfStudents = students.length
 
 //let's loop over the student array
-for( let i=0; i < numberOfStudents; i++) {
+for( let i=0; i < students.length; i++) {
 
 //console.log (students[i])
 //start a running total for the scores to be stored in the total variable
@@ -32,6 +32,8 @@ for( let i=0; i < numberOfStudents; i++) {
     console.log (`${students[i].name} has an average score of ${studentsAverage} `)
 
 }
+
+//or....
 
 function calcStudentAverage (listOfStudents) {
     let numberOfStudents = listOfStudents.length
@@ -53,7 +55,7 @@ function calcStudentAverage (listOfStudents) {
     
         let listOfStudentsAverage = total / numberOfScoreForStudents;
     
-        console.log (`${listOfStudents[i].name} has an average score of ${studentsAverage} `)
+        console.log (`${listOfStudents[i].name} has an average score of ${listOfStudentsAverage} `)
     
     }
 
